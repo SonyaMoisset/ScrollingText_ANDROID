@@ -34,5 +34,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/article_subheading"
         android:lineSpacingExtra="@dimen/line_spacing"
-        android:text="@string/article_text"/>
+        android:text="@string/article_text"
+        android:textSize="@dimen/textSize_regular"/>
 </RelativeLayout>
