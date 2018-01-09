@@ -32,7 +32,6 @@
                 android:id="@+id/article_subheading"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/article_heading"
                 android:padding="@dimen/padding_regular"
                 android:text="@string/article_subtitle"
                 android:textAppearance="@android:style/TextAppearance"/>
@@ -42,10 +41,21 @@
                 android:id="@+id/article"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_regular"
+                android:layout_marginRight="@dimen/margin_regular"
                 android:autoLink="web"
                 android:lineSpacingExtra="@dimen/line_spacing"
                 android:text="@string/article_text"
                 android:textSize="@dimen/textSize_regular"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_regular"
+                android:background="@color/colorPrimary"
+                android:text="@string/add_comment"
+                android:textColor="@android:color/white"/>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
